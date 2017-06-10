@@ -16,10 +16,11 @@ $ noface
 en0
 ```
 
-Otherwise, if things don't go as planned, `noface` will respond with "noface".
+Otherwise, if things don't go as planned, `noface` will resond with a failed exit code.
 ```shell
-$ noface
-noface
+$ noface # no output
+$ echo $?
+1
 ```
 
 ### I named my network interface "noface"
