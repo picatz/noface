@@ -1,7 +1,6 @@
 package noface
 
 import (
-  "os"
   "fmt"
   "errors"
   "github.com/google/gopacket/pcap"
