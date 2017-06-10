@@ -9,9 +9,11 @@ import (
 // Let the party begin.
 func main() {
 
+  // New chan who dis?
   result := make(chan string)
+
+  // Get that function output.
   go func() {
-    // Get that function output.
     iface, e := noface.FirstIface()
     // Did we error out?
     if e != nil {
@@ -22,7 +24,8 @@ func main() {
       result <- iface
     }
   }()
+
   // Print the network interface.
-  fmt.Println(<- result)
+  fmt.Println(<-result)
 
 }
