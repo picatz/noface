@@ -1,6 +1,10 @@
 package main
 
-import "github.com/picatz/noface"
+import (
+  "os"
+  "fmt"
+  "github.com/picatz/noface"
+)
 
 // Let the party begin.
 func main() {
