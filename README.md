@@ -22,13 +22,6 @@ $ noface # no output
 $ echo $?
 1
 ```
-
-### I named my network interface "noface"
-
-Plz don't do that. 
-
-Also, the `noface` command-line tool with return a failed exit code which can be checked in a shell script, for example.
-
 ## Installation
 
 ```shell
